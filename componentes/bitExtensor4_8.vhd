@@ -13,6 +13,6 @@ architecture Behavior of bitExtensor4_8 is
 begin
 	Process (in_port)
 	Begin 
-		Out_port <= ("0000") & in_port;	
+		out_port <= ("0000") & in_port;	
 	End Process;
 end Behavior;
